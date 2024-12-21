@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: using a dangling pointer.  The `bug.rs` file contains code that modifies a vector via a raw pointer after the vector has been deallocated.  The `bugSolution.rs` file provides a corrected version using safe Rust techniques.
